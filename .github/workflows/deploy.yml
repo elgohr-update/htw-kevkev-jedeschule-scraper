@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@2.11
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: knuthuehne/jedeschule-scrapers
           username: ${{ secrets.DOCKER_USERNAME }}
